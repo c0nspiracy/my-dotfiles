@@ -1,0 +1,20 @@
+[user]
+    name = Robert Newbould
+    email = robert.newbould@gmail.com
+[core]
+    autocrlf = input
+[diff]
+[color]
+    ui = auto
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+    di = diff
+    dc = diff --cached
+    amend = commit --amend
+    aa = add --all
+    head = log -1
+[merge]
+    tool = meld
+

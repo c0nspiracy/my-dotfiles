@@ -1,2 +1,2 @@
-fpath=($fpath $HOME/dotfiles/zsh/func)
+fpath=($fpath $HOME/.zsh/func)
 typeset -U fpath

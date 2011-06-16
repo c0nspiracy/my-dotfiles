@@ -2,8 +2,11 @@
 " This must be first because it changes the effects of other options
 set nocompatible
 
-syntax enable
+filetype off
+call pathogen#runtime_append_all_bundles()
 filetype plugin indent on
+
+syntax enable
 
 " Allow backgrounding buffers without writing them,
 " and remember marks/undo for backgrounded buffers
@@ -53,7 +56,11 @@ set title
 
 set visualbell
 
-colorscheme vividchalk
+set t_Co=256
+set background=dark
+" let g:solarized_termcolors=256
+colorscheme solarized
+" colorscheme vividchalk
 
 " Removes trailing spaces
 function TrimWhiteSpace()

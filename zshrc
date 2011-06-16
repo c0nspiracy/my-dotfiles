@@ -7,6 +7,8 @@ promptinit
 # Use the wunjo prompt theme
 prompt wunjo
 
+export TERM=xterm-256color
+
 # Add paths
 export PATH=${PATH}:/usr/local/bin
 

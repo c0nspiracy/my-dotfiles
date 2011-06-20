@@ -10,6 +10,6 @@
 [submodule "vim/bundle/unimpaired"]
 	path = vim/bundle/unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
-[submodule "vim/bundle/javascript-lint"]
-	path = vim/bundle/javascript-lint
+[submodule "vim/bundle/javascript-lint/plugin"]
+	path = vim/bundle/javascript-lint/plugin
 	url = https://github.com/joestelmach/javaScriptLint.vim.git

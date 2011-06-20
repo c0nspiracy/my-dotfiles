@@ -1,9 +1,0 @@
-= Robert Newbould Dot Files
-
-These are config files to set up a system the way I like it.
-
-
-== Notes
-
-These are currently a very basic set of files that will be
-added to as I learn more about the *nix toolset.

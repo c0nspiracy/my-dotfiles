@@ -12,4 +12,4 @@
 	url = https://github.com/tpope/vim-unimpaired.git
 [submodule "vim/bundle/javascript-lint"]
 	path = vim/bundle/javascript-lint
-	url = https://c0nspiracy@github.com/c0nspiracy/javaScriptLint.vim.git
+	url = git@github.com:c0nspiracy/javaScriptLint.vim.git

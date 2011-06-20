@@ -4,3 +4,5 @@
 # Emacs file locks
 .#*
 
+# NetRW History
+vim/.netrwhist

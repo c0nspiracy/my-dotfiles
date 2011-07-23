@@ -48,3 +48,6 @@ export SAVEHIST=$HISTSIZE
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 fpath=(~/.zsh/completion $fpath)
 
+# Add Node.js to PATH
+export PATH=$HOME/local/node/bin:$PATH
+

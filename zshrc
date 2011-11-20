@@ -10,7 +10,7 @@ prompt wunjo
 export TERM=xterm-256color
 
 # Add paths
-export PATH=${PATH}:/usr/local/bin
+export PATH=/usr/local/bin:${PATH}
 
 export EDITOR="vim"
 
@@ -37,7 +37,7 @@ ex=01;32:\
 *.ogg=01;35:*.mp3=01;35:*.wav=01;35:\
 ";
 #export LS_COLORS='di=38;5;108:fi=00:ln=38;5;116:ex=38;5;186'
-export GREP_OPTIONS="--color"
+#export GREP_OPTIONS="--color"
 
 # Fix history
 export HISTFILE="$HOME/.zsh_history"

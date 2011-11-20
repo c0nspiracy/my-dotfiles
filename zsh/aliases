@@ -4,10 +4,10 @@
 alias ..='cd ..'
 
 # ls
-alias ls='ls -F --color'
-alias l='ls -lAhG --color'
-alias ll='ls -lG --color'
-alias la='ls -AF --color'
+#alias ls='ls -F --color'
+#alias l='ls -lAhG --color'
+#alias ll='ls -lG --color'
+#alias la='ls -AF --color'
 
 # git
 alias gl='git pull'

@@ -1,8 +1,7 @@
 " Author: Robert Newbould <robert.newbould+github@gmail.com>
 " Source: https://github.com/c0nspiracy/dotfiles
 " Load pathogen {{{
-        filetype off
-        call pathogen#runtime_append_all_bundles()
+        call pathogen#infect()
 " }}}
 " Basic configuration {{{
         syntax on
@@ -64,6 +63,7 @@ set t_Co=256
 set background=dark
 colorscheme distinguished
 
+let g:Powerline_symbols = 'fancy'
 " Removes trailing spaces
 function TrimWhiteSpace()
   %s/\s*$//
